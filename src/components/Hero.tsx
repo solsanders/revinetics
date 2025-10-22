@@ -21,6 +21,16 @@ export function Hero() {
           viewport={{ once: true, amount: 0.3 }}
           variants={stagger}
         >
+          {/* Logo and Brand Name */}
+          <motion.div variants={fadeUp} className="flex items-center justify-center gap-3.5 mb-20">
+            <img 
+              src="/Revinetics_WhiteLogo.png" 
+              alt="Revinetics Logo" 
+              className="h-10 md:h-14 w-auto"
+            />
+            <h2 className="text-2xl md:text-[2.75rem] font-bold tracking-tight">Revinetics</h2>
+          </motion.div>
+
           <motion.h1
             variants={fadeUp}
             className="text-5xl md:text-7xl font-bold tracking-tight leading-[1.1]"
@@ -31,8 +41,8 @@ export function Hero() {
             variants={fadeUp}
             className="mt-8 text-lg md:text-xl text-zinc-400 max-w-3xl mx-auto leading-relaxed"
           >
-            We turn your SaaS into a premium, done-for-you front-end that funds
-            your ads from Day 1 — so you scale without bleeding cash.
+            We turn your SaaS into a premium done-for-you front end that funds
+            your ads from day one, so you scale without bleeding cash.
           </motion.p>
           <motion.div variants={fadeUp} className="mt-12 flex flex-col items-center gap-4">
             <Link

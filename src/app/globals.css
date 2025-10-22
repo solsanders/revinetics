@@ -125,14 +125,21 @@ body {
   display: flex;
   align-items: center;
   width: max-content;
-  animation: marquee-slide 40s linear infinite;
+  animation: marquee-slide 90s linear infinite;
 }
-.marquee:hover .marquee-track {
-  animation-play-state: paused;
+.marquee-track-reverse {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  animation: marquee-slide-reverse 90s linear infinite;
 }
 @keyframes marquee-slide {
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }
+}
+@keyframes marquee-slide-reverse {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
 }
 .edge-fade:before,
 .edge-fade:after {

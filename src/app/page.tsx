@@ -1,6 +1,6 @@
 "use client";
-import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
+import { Credibility } from "@/components/Credibility";
 import { Trusted } from "@/components/Trusted";
 import { WhyUs } from "@/components/WhyUs";
 import { Process } from "@/components/Process";
@@ -9,11 +9,11 @@ import { FinalCTA } from "@/components/FinalCTA";
 export default function Home() {
   return (
     <main className="min-h-screen w-full bg-background text-foreground">
-      <Navbar />
       <Hero />
       <Trusted />
       <WhyUs />
       <Process />
+      <Credibility />
       <FinalCTA />
       
       <footer className="py-10 border-t border-white/5">

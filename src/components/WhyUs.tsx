@@ -24,15 +24,15 @@ export function WhyUs() {
         <div className="space-y-6">
           {[
             {
-              title: "Offer-First Strategy",
-              desc: "We rebuild your offer before your ads — so payback works from Day 1.",
+              title: "Offer first strategy",
+              desc: "We rebuild your offer before your ads, so payback works from day one.",
             },
             {
-              title: "Testable Funnels",
+              title: "Testable funnels",
               desc: "We measure payback speed, not vanity metrics.",
             },
             {
-              title: "Full Transparency",
+              title: "Full transparency",
               desc: "You own all ad accounts, assets, and data.",
             },
           ].map((item, idx) => (

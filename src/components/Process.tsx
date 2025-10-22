@@ -29,17 +29,17 @@ export function Process() {
             {
               step: "1",
               title: "Reposition",
-              desc: "We turn your existing offer into a premium, done-for-you front-end priced for instant CAC recovery.",
+              desc: "We turn your existing offer into a premium done-for-you front end priced for instant CAC recovery.",
             },
             {
               step: "2",
               title: "Build",
-              desc: "We create the funnel, ads, and tracking system designed to show payback timing—not vanity metrics.",
+              desc: "We create the funnel, ads, and tracking system designed to show payback timing, not vanity metrics.",
             },
             {
               step: "3",
               title: "Scale",
-              desc: "Once your ads fund themselves, we iterate weekly and optimize for maximum front-end profit.",
+              desc: "Once your ads fund themselves, we iterate weekly and optimize for maximum front end profit.",
             },
           ].map((item, idx) => (
             <motion.div
@@ -71,7 +71,7 @@ export function Process() {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="mt-10 text-center text-sm text-zinc-500"
         >
-          Most clients see their Profit Switch live within 7–14 days.
+          Most clients launch in under 7 days—faster than any traditional agency.
         </motion.p>
       </div>
     </section>

@@ -29,22 +29,38 @@ export function Navbar() {
   }, [lastScrollY]);
 
   return (
-    <div
-      className={`fixed top-0 left-0 right-0 z-50 border-b border-white/5 bg-[rgba(10,10,10,0.8)] backdrop-blur-xl transition-transform duration-300 ${
+    <nav
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isVisible ? "translate-y-0" : "-translate-y-full"
       }`}
     >
-      <div className="mx-auto max-w-7xl h-20 flex items-center justify-between container-px">
-        <Link href="/" className="flex items-center gap-2">
-          <div className="text-2xl font-bold tracking-tight">Revinetics</div>
-        </Link>
-        <Link
-          href="/book"
-          className="btn-primary rounded-full px-6 py-2.5 text-sm font-semibold"
-        >
-          Book a Strategy Call
-        </Link>
+      {/* Backdrop blur container */}
+      <div className="border-b border-white/[0.08] bg-[rgba(10,10,10,0.85)] backdrop-blur-2xl">
+        <div className="mx-auto max-w-7xl h-20 flex items-center justify-between container-px">
+          {/* Logo */}
+          <Link href="/" className="flex items-center gap-3 group">
+            <img 
+              src="/Revinetics_Logo.png" 
+              alt="Revinetics" 
+              className="h-8 w-auto transition-opacity group-hover:opacity-80"
+            />
+            <div className="text-2xl font-bold tracking-tight transition-colors group-hover:text-accent">
+              Revinetics
+            </div>
+          </Link>
+
+          {/* CTA Button */}
+          <Link
+            href="/book"
+            className="btn-primary rounded-full px-7 py-3 text-sm font-semibold shadow-lg hover:shadow-xl"
+          >
+            Book a Call
+          </Link>
+        </div>
       </div>
-    </div>
+      
+      {/* Subtle gradient line under navbar */}
+      <div className="h-[1px] bg-gradient-to-r from-transparent via-accent/20 to-transparent" />
+    </nav>
   );
 }
