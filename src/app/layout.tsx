@@ -9,28 +9,72 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Revinetics | Profitable Ad Systems for B2B SaaS",
+  title: "Revinetics | Profitable Paid Ad Systems for B2B SaaS Companies",
   description:
-    "We build profitable ad systems for B2B SaaS. Turn your ads into cash-positive acquisition with done-for-you premium offer systems.",
+    "Launch in under 7 days. We turn your B2B SaaS into a premium done-for-you front end that funds your paid ads from day one. No long payback periods, no cash flow bottlenecks.",
   metadataBase: new URL("https://revinetics.com"),
-  icons: { icon: "/favicon.ico" },
-  openGraph: {
-    title: "Revinetics | Profitable Ad Systems for B2B SaaS",
-    description:
-      "We build profitable ad systems for B2B SaaS. Turn your ads into cash-positive acquisition with done-for-you premium offer systems.",
-    url: "/",
-    siteName: "Revinetics",
-    images: [
-      { url: "/og.png", width: 1200, height: 630, alt: "Revinetics" },
+  keywords: [
+    "B2B SaaS paid ads",
+    "SaaS customer acquisition",
+    "high-ticket SaaS offers",
+    "done-for-you SaaS",
+    "SaaS CAC optimization",
+    "cash-positive acquisition",
+    "B2B SaaS growth agency",
+    "SaaS ad systems",
+  ],
+  authors: [{ name: "Revinetics" }],
+  creator: "Revinetics",
+  publisher: "Revinetics",
+  icons: {
+    icon: [
+      { url: "/Revinetics_BlueGradientLogo.png" },
+      { url: "/Revinetics_BlueGradientLogo.png", sizes: "32x32", type: "image/png" },
+      { url: "/Revinetics_BlueGradientLogo.png", sizes: "16x16", type: "image/png" },
     ],
+    apple: [
+      { url: "/Revinetics_BlueGradientLogo.png" },
+    ],
+  },
+  openGraph: {
+    title: "Revinetics | Profitable Paid Ad Systems for B2B SaaS",
+    description:
+      "Launch in under 7 days. We turn your B2B SaaS into a premium done-for-you offer that funds your paid ads from day one.",
+    url: "https://revinetics.com",
+    siteName: "Revinetics",
+    locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: "/Revinetics_BlueGradientLogo.png",
+        width: 1200,
+        height: 630,
+        alt: "Revinetics - Profitable Paid Ad Systems for B2B SaaS",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Revinetics | Profitable Ad Systems for B2B SaaS",
+    title: "Revinetics | Profitable Paid Ad Systems for B2B SaaS",
     description:
-      "We build profitable ad systems for B2B SaaS. Turn your ads into cash-positive acquisition with done-for-you premium offer systems.",
-    images: ["/og.png"],
+      "Launch in under 7 days. Turn your B2B SaaS into a premium done-for-you offer that funds your paid ads from day one.",
+    images: ["/Revinetics_BlueGradientLogo.png"],
+    creator: "@revinetics",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  verification: {
+    // google: "your-google-verification-code", // Add when you have it
+    // yandex: "your-yandex-verification-code",
   },
 };
 
