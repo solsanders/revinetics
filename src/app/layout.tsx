@@ -27,14 +27,9 @@ export const metadata: Metadata = {
   creator: "Revinetics",
   publisher: "Revinetics",
   icons: {
-    icon: [
-      { url: "/Revinetics_BlueGradientLogo.png" },
-      { url: "/Revinetics_BlueGradientLogo.png", sizes: "32x32", type: "image/png" },
-      { url: "/Revinetics_BlueGradientLogo.png", sizes: "16x16", type: "image/png" },
-    ],
-    apple: [
-      { url: "/Revinetics_BlueGradientLogo.png" },
-    ],
+    icon: "/Revinetics_BlueGradientLogo.png",
+    shortcut: "/Revinetics_BlueGradientLogo.png",
+    apple: "/Revinetics_BlueGradientLogo.png",
   },
   openGraph: {
     title: "Revinetics | Profitable Paid Ad Systems for B2B SaaS",
