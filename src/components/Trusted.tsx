@@ -2,7 +2,7 @@
 
 const logosRow1 = [
   "/logos/HubSpot_Logo.svg",
-  "/logos/Salesforce.com_logo.svg",
+  "/logos/salesforce-seeklogo.svg",
   "/logos/Slack_Technologies_Logo.svg",
   "/logos/Zendesk_logo.svg",
   "/logos/Asana_logo.svg",
