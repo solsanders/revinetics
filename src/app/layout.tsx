@@ -80,6 +80,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        {/* Preload Calendly script to prevent buffering */}
+        <link rel="preload" href="https://assets.calendly.com/assets/external/widget.js" as="script" />
+        <link rel="preconnect" href="https://assets.calendly.com" />
+        <link rel="dns-prefetch" href="https://assets.calendly.com" />
+      </head>
       <body className={`${inter.variable} font-sans antialiased bg-background text-foreground`}>
         {children}
       </body>
