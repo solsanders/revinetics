@@ -14,7 +14,7 @@ export function ValueSection() {
     },
     {
       title: "Scale with clarity",
-      desc: "We iterate only on what improves payback timing and capacity—not vanity metrics.",
+      desc: "We iterate only on what improves payback timing and capacity, not vanity metrics.",
     },
   ];
   return (
@@ -29,7 +29,7 @@ export function ValueSection() {
             </div>
           ))}
         </div>
-        <p className="mt-4 text-sm text-zinc-400">No hype or guarantees—just a clear path to cash-positive acquisition.</p>
+        <p className="mt-4 text-sm text-zinc-400">No hype or guarantees, just a clear path to cash positive acquisition.</p>
       </div>
     </section>
   );

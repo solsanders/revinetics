@@ -2,7 +2,8 @@
 import { Hero } from "@/components/Hero";
 import { Credibility } from "@/components/Credibility";
 import { Trusted } from "@/components/Trusted";
-import { WhyUs } from "@/components/WhyUs";
+// removed WhyUs section per request
+import { ChoosePath } from "@/components/ChoosePath";
 import { Process } from "@/components/Process";
 import { FinalCTA } from "@/components/FinalCTA";
 
@@ -11,7 +12,8 @@ export default function Home() {
     <main className="min-h-screen w-full bg-background text-foreground">
       <Hero />
       <Trusted />
-      <WhyUs />
+      <ChoosePath />
+      <div className="section-divider mx-auto max-w-6xl container-px" />
       <Process />
       <Credibility />
       <FinalCTA />

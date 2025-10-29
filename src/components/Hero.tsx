@@ -35,14 +35,13 @@ export function Hero() {
             variants={fadeUp}
             className="text-5xl md:text-7xl font-bold tracking-tight leading-[1.1]"
           >
-            We build profitable paid ad systems for B2B SaaS firms.
+            Done-for-you revenue engine for B2B SaaS firms.
           </motion.h1>
           <motion.p
             variants={fadeUp}
             className="mt-8 text-lg md:text-xl text-zinc-400 max-w-3xl mx-auto leading-relaxed"
           >
-            We turn your SaaS into a premium done-for-you front end that funds
-            your ads from day one, so you scale without bleeding cash.
+            Launch-ready in under 7 days. 100% done-for-you. Built to scale.
           </motion.p>
           <motion.div variants={fadeUp} className="mt-12 flex flex-col items-center gap-4">
             <Link
